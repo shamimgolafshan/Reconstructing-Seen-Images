@@ -27,4 +27,4 @@ as a result, we have:
 
 
 [1]Fang, Tao, Yu Qi, and Gang Pan. "Reconstructing perceptive images from brain activity by shape-semantic gan." Advances in Neural Information Processing Systems 33 (2020): 13038-13048.
-[2]Shen, Horikawa, Majima, and Kamitani (2019) Deep image reconstruction from human brain activity. PLoS Comput. Biol. http://dx.doi.org/10.1371/journal.pcbi.1006633.
+<br>[2]Shen, Horikawa, Majima, and Kamitani (2019) Deep image reconstruction from human brain activity. PLoS Comput. Biol. http://dx.doi.org/10.1371/journal.pcbi.1006633.
