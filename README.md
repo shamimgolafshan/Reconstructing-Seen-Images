@@ -9,8 +9,6 @@ You can download the Preprocessed fMRI data from here[2]:
 We used an Convolutional Auto Encoder to decode the best features of naturalistic Images and then trained Base decoders using these features.
 this is the overview of our framework:
 
-<img width="338" alt="image" src="https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/bead69b5-08d4-4310-904c-9c7f829d5b99">
-
 
 ## Result 
 as a result, we have:
