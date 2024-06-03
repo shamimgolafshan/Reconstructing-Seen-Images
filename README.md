@@ -1,28 +1,45 @@
-# Reconstructing seen images from visually evoked fMRI using a promoted shape-semantic GAN
-In this project, we tried to increase the quality of Images that people saw during an experiment. Our base article was: 
+# Reconstructing Seen Images from Visually Evoked fMRI using a Promoted Shape-Semantic GAN
+
+In this project, we aimed to enhance the quality of images that subjects saw during an experiment by leveraging advanced machine learning techniques. Our base article was "Reconstructing Perceptive Images from Brain Activity by Shape-Semantic GAN" by Fang, Tao, Yu Qi, and Gang Pan.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Data](#data)
+- [Method](#method)
+- [Results](#results)
+- [Citation](#citation)
+
+## Introduction
+
+This project focuses on reconstructing perceptual images from fMRI data using a promoted Shape-Semantic GAN. Our approach improves the quality of reconstructed images, providing a more accurate representation of the images seen by subjects during the experiment.
+
 ## Data
-We used preprocessed data from "Reconstructing Perceptive Images from Brain Activity by Shape-Semantic GAN"[1]
-You can download the Preprocessed fMRI data from here[2]:
-(https://figshare.com/articles/dataset/Deep_Image_Reconstruction/7033577)
+
+We used preprocessed data from the study "Reconstructing Perceptive Images from Brain Activity by Shape-Semantic GAN"[1]. The preprocessed fMRI data can be downloaded from the following link: [Preprocessed fMRI Data](https://figshare.com/articles/dataset/Deep_Image_Reconstruction/7033577).
 
 ## Method
-We used an Convolutional Auto Encoder to decode the best features of naturalistic Images and then trained Base decoders using these features.
-this is the overview of our framework:
 
+We utilized a Convolutional Autoencoder to decode the best features of naturalistic images and then trained base decoders using these features. Below is an overview of our framework:
 
-## Result 
-as a result, we have:
-<br> <img width="474" alt="image" src="https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/8dd881fc-3638-4624-8e24-82ba06e08017">
+![Framework Overview](path/to/your/framework-image.png)
 
-<br>For evaluate the similarity we used SSIM("structural Similarity Index Measure") and MSE which you can see below:
-<br> <img width="409" alt="image" src="https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/6c6869d7-a63c-4653-899c-1dfe7f6d788c">
+## Results
 
+As a result, we achieved the following reconstructions:
 
+![Resulting Images](https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/8dd881fc-3638-4624-8e24-82ba06e08017)
 
+To evaluate the similarity between the original and reconstructed images, we used SSIM (Structural Similarity Index Measure) and MSE (Mean Squared Error), as shown below:
 
+![Evaluation Metrics](https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/6c6869d7-a63c-4653-899c-1dfe7f6d788c)
 
+## Citation
 
+If you use this project in your research, please cite the following articles:
 
+1. Fang, Tao, Yu Qi, and Gang Pan. "Reconstructing perceptive images from brain activity by shape-semantic gan." Advances in Neural Information Processing Systems 33 (2020): 13038-13048.
+2. Shen, Horikawa, Majima, and Kamitani (2019) Deep image reconstruction from human brain activity. PLoS Comput. Biol. http://dx.doi.org/10.1371/journal.pcbi.1006633.
 
-[1]Fang, Tao, Yu Qi, and Gang Pan. "Reconstructing perceptive images from brain activity by shape-semantic gan." Advances in Neural Information Processing Systems 33 (2020): 13038-13048.
-<br>[2]Shen, Horikawa, Majima, and Kamitani (2019) Deep image reconstruction from human brain activity. PLoS Comput. Biol. http://dx.doi.org/10.1371/journal.pcbi.1006633.
+---
+
+Replace `path/to/your/framework-image.png` with the actual path to your framework overview image in the repository. This README file includes all the essential information about your project, along with citations for the relevant articles.
