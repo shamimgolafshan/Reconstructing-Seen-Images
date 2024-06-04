@@ -1,6 +1,7 @@
 # Reconstructing Seen Images from Visually Evoked fMRI using a Promoted Shape-Semantic GAN
+<p align="center">
 <img width="471" alt="image" src="https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/e65ad1a2-d2bc-45d2-8e3b-88e2aa95f92b">
-
+</p>
 ## Table of Contents
 - [Introduction](#introduction)
 - [Data](#data)
