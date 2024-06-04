@@ -29,9 +29,6 @@ As a result, we achieved the following reconstructions:
 
 ![Resulting Images](https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/8dd881fc-3638-4624-8e24-82ba06e08017)
 
-To evaluate the similarity between the original and reconstructed images, we used SSIM (Structural Similarity Index Measure) and MSE (Mean Squared Error), as shown below:
-
-![Evaluation Metrics](https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/6c6869d7-a63c-4653-899c-1dfe7f6d788c)
 
 ## Citation
 
@@ -40,6 +37,3 @@ If you use this project in your research, please cite the following articles:
 1. Fang, Tao, Yu Qi, and Gang Pan. "Reconstructing perceptive images from brain activity by shape-semantic gan." Advances in Neural Information Processing Systems 33 (2020): 13038-13048.
 2. Shen, Horikawa, Majima, and Kamitani (2019) Deep image reconstruction from human brain activity. PLoS Comput. Biol. http://dx.doi.org/10.1371/journal.pcbi.1006633.
 
----
-
-Replace `path/to/your/framework-image.png` with the actual path to your framework overview image in the repository. This README file includes all the essential information about your project, along with citations for the relevant articles.
