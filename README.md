@@ -9,6 +9,7 @@
 - [Method](#method)
 - [Results](#results)
 - [Citation](#citation)
+- [Running this project](#Running this project)
 
 ## Introduction
 
@@ -31,6 +32,7 @@ As a result, we achieved the following reconstructions:
 
 ![Resulting Images](https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/8dd881fc-3638-4624-8e24-82ba06e08017)
 
+## Running this project
 
 ## Citation
 
