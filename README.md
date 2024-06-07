@@ -21,8 +21,9 @@ We used preprocessed data from the study "Reconstructing Perceptive Images from 
 ## Method
 
 We utilized a Convolutional Autoencoder to decode the best features of naturalistic images and then trained base decoders using these features. Below is an overview of our framework:
-
-![Framework Overview](path/to/your/framework-image.png)
+<p align="center">
+<img width="338" alt="image" src="https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/b53ba974-ccfa-440e-872a-7bd23a9b418c">
+</p>
 
 ## Results
 
