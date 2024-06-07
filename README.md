@@ -8,8 +8,8 @@
 - [Data](#data)
 - [Method](#method)
 - [Results](#results)
+- [How to Run](#how-to-run)
 - [Citation](#citation)
-- [Running this project](#Running this project)
 
 ## Introduction
 
@@ -32,7 +32,26 @@ As a result, we achieved the following reconstructions:
 
 ![Resulting Images](https://github.com/shamimgolafshan/Reconstructing-Seen-Images/assets/35660420/8dd881fc-3638-4624-8e24-82ba06e08017)
 
-## Running this project
+
+## How to Run
+
+To run this project, follow these steps:
+
+1. Download the preprocessed fMRI data from the [link provided](https://figshare.com/articles/dataset/Deep_Image_Reconstruction/7033577) and place it in the appropriate directory.
+
+2. Ensure you have Jupyter Notebook installed. You can install it using pip if you don't have it already:
+    ```bash
+    pip install jupyter
+    ```
+
+3. Navigate to the directory containing the notebook.
+
+4. Run the following command to open the notebook:
+    ```bash
+    jupyter notebook Final_code_Image_reconstruction.ipynb
+    ```
+
+5. The notebook will open in your default web browser. Run the cells in the notebook to start the reconstruction process.
 
 ## Citation
 
@@ -40,4 +59,3 @@ If you use this project in your research, please cite the following articles:
 
 1. Fang, Tao, Yu Qi, and Gang Pan. "Reconstructing perceptive images from brain activity by shape-semantic gan." Advances in Neural Information Processing Systems 33 (2020): 13038-13048.
 2. Shen, Horikawa, Majima, and Kamitani (2019) Deep image reconstruction from human brain activity. PLoS Comput. Biol. http://dx.doi.org/10.1371/journal.pcbi.1006633.
-
